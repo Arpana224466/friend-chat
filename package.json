@@ -1,0 +1,15 @@
+{
+  "name": "friend-chat",
+  "version": "1.0.0",
+  "description": "A simple real-time chat app with accounts, for chatting with friends.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.7.5"
+  }
+}
